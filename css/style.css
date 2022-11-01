@@ -1,0 +1,117 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: "Frutiger Neue W02 Bd",Arial,Helvetica,sans-serif;
+}
+.apresentacao-texto
+{
+  padding: 5%;
+}
+#btn-down-curriculo
+{
+  height: 10vh;
+  width: 20vw;
+  background-color: rgb(60, 58, 58);
+  border-radius: 25px 0px 25px 0px;
+  margin: 5% 0% 0% 35% ;
+  border: none;
+}
+#btn-down-curriculo:hover
+{
+  background-color: rgba(60, 58, 58, 0.751);
+}
+.dados
+{
+  display: grid;
+  justify-content: space-around;
+  align-content: space-around;
+  padding: 5%;
+  font-size: small;
+  margin-top: 8%;
+}
+.foto
+{
+  padding-top: 5vw ;
+  margin-right: 5vw;
+  margin-bottom: 4vw;
+}
+.fundo-cont
+{
+  background-color: rgba(212, 222, 231, 0.6);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: rgba(0, 0, 0, 0.288);
+}
+.fundo-curri
+{
+  background-color: rgba(212, 222, 231, 0.6);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: rgba(0, 0, 0, 0.288);
+}
+.info
+{
+  display: grid;
+  justify-content: space-around;
+  align-content: space-around;
+  padding: 5%;
+  font-size: small;
+}
+.link
+{
+  padding: 23px 50px 23px 50px;
+}
+.link:active 
+{
+  text-decoration: none
+}
+.link:hover
+{
+  background-color: rgba(240, 248, 255, 0.275);
+  border-radius: 10px;
+}
+.link:link {
+  text-decoration: none;
+}
+.link:visited {
+  text-decoration: none;
+}
+.my-name-nav-bar
+{
+  color: aliceblue;
+  left: 50px;
+}
+.nav-bar
+{
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  height: 10vh;
+  width: 100vw;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar-content
+{
+  display: flex;
+}
+.nav-bar-content-h1
+{
+  height: 10vh;
+  width: 17vw;
+  color: aliceblue;
+  display: contents;
+}
+.quemsou
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#who-aim
+{
+  padding-top: 12vh;
+  width: 100%;
+}
