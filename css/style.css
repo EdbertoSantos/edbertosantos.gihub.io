@@ -16,6 +16,7 @@
   border-radius: 25px 0px 25px 0px;
   margin: 5% 0% 0% 35% ;
   border: none;
+  color: aliceblue;
 }
 #btn-down-curriculo:hover
 {
@@ -46,6 +47,13 @@
 .fundo-curri
 {
   background-color: rgba(212, 222, 231, 0.6);
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: rgba(0, 0, 0, 0.288);
+}
+.fundo-proj
+{
+  background-color: aliceblue;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0);
   border-top-color: rgba(0, 0, 0, 0.288);
