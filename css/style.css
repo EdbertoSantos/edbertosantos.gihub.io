@@ -8,13 +8,27 @@
 {
   padding: 5%;
 }
+body::-webkit-scrollbar
+{
+  width: 18px
+}
+body::-webkit-scrollbar-track
+{
+  background: rgba(60, 58, 58, 0.781) ;
+}
+body::-webkit-scrollbar-thumb
+{
+  background-color: rgba(240, 248, 255, 0.786);
+  border-radius: 20px ;
+  border: 4px solid rgba(60, 58, 58, 0.781)
+}
 #btn-down-curriculo
 {
   height: 10vh;
   width: 20vw;
   background-color: rgb(60, 58, 58);
   border-radius: 25px 0px 25px 0px;
-  margin: 5% 0% 0% 35% ;
+  margin: 5% 0% 0% 30% ;
   border: none;
   color: aliceblue;
 }
@@ -53,10 +67,12 @@
 }
 .fundo-proj
 {
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   border-style: solid;
   border-color: rgba(0, 0, 0, 0);
   border-top-color: rgba(0, 0, 0, 0.288);
+  display: flex ;
+  justify-content: center;
 }
 .info
 {
@@ -111,6 +127,20 @@
   width: 17vw;
   color: aliceblue;
   display: contents;
+}
+.projeto
+{
+  padding: 4%;
+}
+.projeto-img-link
+{   
+  background: rgba(0, 0, 0, 0.288);
+}
+.projeto-link:link {
+  text-decoration: none;
+}
+.projeto-link:visited {
+  text-decoration: none;
 }
 .quemsou
 {
