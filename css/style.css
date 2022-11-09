@@ -257,6 +257,16 @@ nav {
   {
     font-size: 2vw;
   }
+  #btn-down-curriculo
+{
+  height: 10vh;
+  width: 50vw;
+  background-color: rgb(60, 58, 58);
+  border-radius: 25px 0px 25px 0px;
+  margin: 5% 0% 0% 20% ;
+  border: none;
+  color: aliceblue;
+}
 }
 
 .nav-list.active {
