@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    font-family: 'Azeret Mono', monospace;
+}
+
+.Header-op {}
+
+.Header-Links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.Header-Links-IMG {
+    height: 3em;
+}
+
+.Header-Links-Unit {
+    margin: 3em;
+    font-weight: 900;
+}
+
+.Header-Links-Unit :link {
+    text-decoration: none;
+    color: white;
+}
+
+.Header-Links-Unit :visited {
+    text-decoration: none;
+    color: white;
+}
+
+.Header-Links-Unit :hover {
+    color: black;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+        1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
