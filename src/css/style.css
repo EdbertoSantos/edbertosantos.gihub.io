@@ -55,7 +55,6 @@ body {
     /* Opção para ajustar a imagem ao tamanho da tela */
     background-repeat: round;
     /* Impede a repetição da imagem */
-    position: relative;
 }
 
 .Start-Title {
