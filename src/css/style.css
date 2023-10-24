@@ -1,13 +1,14 @@
 * {
-    padding: 0px;
     margin: 0px;
     font-family: 'Azeret Mono', monospace;
 }
 
-.Background {
+/* Estilos do fundo */
+body {
     background-color: black;
 }
 
+/* Estilos do cabeçalho */
 .Header-op {
     position: fixed;
     width: 100vw;
@@ -20,7 +21,6 @@
     justify-content: center;
     list-style: none;
     padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
     background-color: rgba(0, 0, 0, 0.695);
     backdrop-filter: blur(8px);
 }
@@ -34,35 +34,46 @@
     font-weight: 900;
 }
 
-.Header-Links-Unit :link {
+.Header-Links-Unit a {
     text-decoration: none;
     color: white;
 }
 
-.Header-Links-Unit :visited {
-    text-decoration: none;
-    color: white;
-}
-
-.Header-Links-Unit :hover {
+.Header-Links-Unit a:hover {
     color: black;
     text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
         1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 }
 
+/* Estilos da seção inicial */
 .Start {
     padding-top: 12vh;
-    height: 1000vh;
+    height: 88vh;
     max-width: 100vw;
+    background-image: url('../img/Group\ 6.png');
+    background-size: cover;
+    /* Opção para ajustar a imagem ao tamanho da tela */
+    background-repeat: round;
+    /* Impede a repetição da imagem */
+    position: relative;
 }
 
 .Start-Title {
     color: #fff;
+    height: 80vh;
+    width: 75vw;
+    display: grid;
+    align-content: center;
+    justify-content: space-around;
 }
 
-.Start-Title-Name{
-    font-size: 8em;
+.Start-Title-Name {
+    font-size: 6em;
 }
 
-.Start-Title-Name h1{
+/* Estilos da seção projetos */
+
+.Project {
+    height: 100vh;
+    max-width: 100vw;
 }
