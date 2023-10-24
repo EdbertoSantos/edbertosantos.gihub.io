@@ -4,22 +4,25 @@
     font-family: 'Azeret Mono', monospace;
 }
 
-.Background{
+.Background {
     background-color: black;
 }
+
 .Header-op {
     position: fixed;
     width: 100vw;
-    height: 12vh;
 }
+
 
 .Header-Links {
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
-    margin-top: 2vh;
-    background-color: black;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    background-color: rgba(0, 0, 0, 0.695);
+    backdrop-filter: blur(8px);
 }
 
 .Header-Links-IMG {
@@ -47,17 +50,19 @@
         1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
 }
 
-.Start{
-    height: 100vh;
-    width: 100vw;
+.Start {
+    padding-top: 12vh;
+    height: 1000vh;
+    max-width: 100vw;
 }
 
-.Start-Title{
+.Start-Title {
     color: #fff;
 }
 
-.Start-Title h1{
+.Start-Title-Name{
     font-size: 8em;
-    font-weight: bold;
+}
 
+.Start-Title-Name h1{
 }
