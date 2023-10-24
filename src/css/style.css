@@ -1,17 +1,25 @@
 * {
     padding: 0px;
     margin: 0px;
-    background-color: black;
     font-family: 'Azeret Mono', monospace;
 }
 
-.Header-op {}
+.Background{
+    background-color: black;
+}
+.Header-op {
+    position: fixed;
+    width: 100vw;
+    height: 12vh;
+}
 
 .Header-Links {
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
+    margin-top: 2vh;
+    background-color: black;
 }
 
 .Header-Links-IMG {
@@ -19,7 +27,7 @@
 }
 
 .Header-Links-Unit {
-    margin: 3em;
+    margin-left: 5vw;
     font-weight: 900;
 }
 
@@ -37,4 +45,19 @@
     color: black;
     text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
         1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.Start{
+    height: 100vh;
+    width: 100vw;
+}
+
+.Start-Title{
+    color: #fff;
+}
+
+.Start-Title h1{
+    font-size: 8em;
+    font-weight: bold;
+
 }
