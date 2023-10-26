@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    padding-inline-start: 0px;
     font-family: 'Azeret Mono', monospace;
 }
 
@@ -24,6 +25,7 @@ body {
     background-color: rgba(0, 0, 0, 0.695);
     backdrop-filter: blur(8px);
 }
+
 
 .Header-Links-IMG {
     height: 3em;
@@ -66,8 +68,12 @@ body {
     justify-content: space-around;
 }
 
-.Start-Title-Name {
-    font-size: 6em;
+.Start-Title h1 {
+    font-size: 8em;
+}
+
+.Start-Title h2 {
+    padding-left: 10px;
 }
 
 /* Estilos da seção projetos */
@@ -75,4 +81,49 @@ body {
 .Project {
     height: 100vh;
     max-width: 100vw;
+    color: #fff;
+    display: grid;
+    align-content: space-around;
 }
+
+.Project-Space-Unit {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.Project-Space-list {
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 12vh 10vw;
+}
+
+/* Estilos da seção projetos */
+
+.Expirience{
+    height: 100vh;
+    max-width: 100vw;
+    color: #fff;
+    display: grid;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.Experience-test{
+    border: 2px solid #fff;
+    border-radius: 15px;
+    width: 75vw;
+    height: 70vh;
+}
+
+/* Estilos da seção Habilidades */
+
+.Habilits{
+    height: 100vh;
+    max-width: 100vw;
+    color: #fff;
+    display: grid;
+    align-content: space-around;
+}
+
+.Habilits-Space-Unit{}
