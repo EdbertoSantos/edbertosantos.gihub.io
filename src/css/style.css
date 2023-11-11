@@ -2,6 +2,7 @@
     margin: 0px;
     padding-inline-start: 0px;
     font-family: 'Azeret Mono', monospace;
+    color: #fff;
 }
 
 /* Estilos do fundo */
@@ -38,7 +39,6 @@ body {
 
 .Header-Links-Unit a {
     text-decoration: none;
-    color: white;
 }
 
 .Header-Links-Unit a:hover {
@@ -60,7 +60,6 @@ body {
 }
 
 .Start-Title {
-    color: #fff;
     height: 80vh;
     width: 75vw;
     display: grid;
@@ -81,7 +80,6 @@ body {
 .Project {
     height: 100vh;
     max-width: 100vw;
-    color: #fff;
     display: grid;
     align-content: space-around;
 }
@@ -103,7 +101,6 @@ body {
 .Expirience{
     height: 100vh;
     max-width: 100vw;
-    color: #fff;
     display: grid;
     align-content: space-around;
     justify-content: space-around;
@@ -119,11 +116,21 @@ body {
 /* Estilos da seção Habilidades */
 
 .Habilits{
+    padding-top: 15vh;
     height: 100vh;
     max-width: 100vw;
     color: #fff;
-    display: grid;
-    align-content: space-around;
 }
 
-.Habilits-Space-Unit{}
+.Habilits-division{
+    border: 2px solid #fff;
+    
+}
+
+.Habilits-Division-Title{
+
+}
+
+.Hbilits-Division-Content{
+
+}
