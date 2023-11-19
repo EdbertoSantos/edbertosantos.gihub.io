@@ -120,17 +120,64 @@ body {
     height: 100vh;
     max-width: 100vw;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Habilits-division{
-    border: 2px solid #fff;
-    
+
 }
 
 .Habilits-Division-Title{
+    list-style: none;
+    border: 2px solid #fff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+}
+
+.Habilits-Division-Content{
+    list-style: none;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
 
 }
 
-.Hbilits-Division-Content{
+/* Estilos da seção Contatos*/
 
+.Contacts {
+    padding-top: 12vh;
+    height: 88vh;
+    max-width: 100vw;
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+    /* Opção para ajustar a imagem ao tamanho da tela */
+    background-repeat: round;
+    /* Impede a repetição da imagem */
+}
+
+/* Estilos da seção footer*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-setinha{
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 10px;
+    position: fixed;
+}
+
+.setinha{
+    height: 8vh;
 }
